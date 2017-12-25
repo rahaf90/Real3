@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dateview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/announcerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/dateview"
+        android:layout_alignRight="@+id/dateview"
+        android:layout_below="@+id/dateview"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/useremailview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/announcerview"
+        android:layout_alignStart="@+id/announcerview"
+        android:layout_below="@+id/announcerview"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/phonenumberview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/useremailview"
+        android:layout_alignRight="@+id/useremailview"
+        android:layout_below="@+id/useremailview"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/messageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dateview"
+        android:layout_alignBottom="@+id/dateview"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/dateview"
+        android:layout_toRightOf="@+id/dateview"
+        android:text="TextView" />
+</RelativeLayout>

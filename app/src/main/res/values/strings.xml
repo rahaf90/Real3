@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Real3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sendedmessage">Sendedmessage</string>
+    <string name="title_activity_messagespage">Messagespage</string>
+    <string name="title_activity_contact_announcer">ContactAnnouncer</string>
+    <string name="title_activity_messages_list">MessagesList</string>
+    <string name="title_activity_announcementdetails">Announcementdetails</string>
+    <string name="title_activity_announcementlocation">announcementlocation</string>
+</resources>
